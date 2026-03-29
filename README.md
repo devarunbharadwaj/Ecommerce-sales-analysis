@@ -1,66 +1,93 @@
-# Ecommerce-sales-analysis
-End-to-end e-commerce data analysis using Python, SQL and Power BI. Includes data cleaning, KPI analysis, and dashboard visualization.
+# 📊 E-commerce Sales & Customer Retention Analysis
 
-# 📊 E-commerce Sales & Delivery Analysis
+## 🚀 Project Overview
+This project analyzes an E-commerce dataset to uncover insights about **customer behavior, revenue trends, delivery performance, and retention**.
 
-## 🔍 Project Overview
-
-This project analyzes e-commerce sales and delivery performance using Python, SQL, and Power BI.
-
-The goal was to identify:
-
-* Revenue trends over time
-* Top contributing customers
-* Delivery performance patterns
-* Customer retention behavior
+The goal is to move beyond basic reporting and identify **business-critical insights** such as:
+- Customer retention vs acquisition
+- Revenue concentration
+- Delivery efficiency impact
 
 ---
 
-## 📁 Dataset
-
-* Brazilian E-commerce Dataset (Olist)
-* Cleaned and processed for analysis
+## 🛠 Tools & Technologies
+- **SQL (PostgreSQL)** → Data extraction & analysis
+- **Python (Pandas, NumPy)** → Data cleaning & preprocessing
+- **Power BI** → Dashboard & visualization
 
 ---
 
-## 🛠️ Tools Used
-
-* Python (Pandas, Data Cleaning)
-* PostgreSQL (SQL Analysis)
-* Power BI (Dashboard & Visualization)
+## 📂 Project Structure
+Ecommerce-sales-analysis/
+│
+├── data/ # Cleaned datasets
+├── sql/ # SQL queries
+├── notebooks/ # Python analysis
+├── powerbi/ # Power BI dashboard (.pbix)
+├── images/ # Dashboard screenshots
+└── README.md
 
 ---
 
 ## 📊 Key Insights
 
-* ~97% of customers are one-time buyers → extremely low retention
-* Only ~3% repeat customers → weak loyalty
-* Revenue growth driven mainly by new customers
-* Most deliveries occur within 6–15 days → stable logistics
+### Customer Behavior
+- ~97% of customers are one-time buyers  
+- Only ~3% are repeat customers  
+→ Indicates extremely poor customer retention  
+
+---
+
+### Revenue Insights
+- Revenue growth is driven mainly by new customer acquisition  
+- A small group of customers contributes a large portion of revenue  
+
+---
+
+### Delivery Performance
+- Most deliveries occur within 6–15 days  
+- Slight variation in order value across delivery durations  
+
+---
+
+### Business Implication
+- The business is heavily dependent on acquiring new customers  
+- Lack of retention strategy poses long-term revenue risk  
 
 ---
 
 ## 📈 Dashboard Preview
 
-<img width="1197" height="650" alt="image" src="https://github.com/user-attachments/assets/52b22dda-0498-4e22-b07d-12f8ed39fac7" />
-<img width="1164" height="613" alt="image" src="https://github.com/user-attachments/assets/89f1c959-ef0f-4902-bfbc-8b4f44a1fdc7" />
+### Main Dashboard
+![Dashboard 1](images/Ecommerce_Dashboard1.png)
 
-
-
-
----
-
-## 📂 Project Structure
-
-* `/data` → cleaned datasets
-* `/sql` → SQL queries
-* `/notebooks` → Python analysis
-* `/powerbi` → dashboard file
+### Customer & Delivery Insights
+![Dashboard 2](images/Ecommerce_Dashboard2.png)
 
 ---
 
-## 🚀 Conclusion
+## ⚙️ How to Use
 
-This project highlights the importance of customer retention in e-commerce and shows how data analysis can uncover key business insights.
+1. Load datasets from the `data/` folder  
+2. Run SQL queries from `sql/analysis.sql`  
+3. Open `powerbi/Ecommerce_projectdb.pbix` in Power BI  
 
 ---
+
+## 🧠 What I Learned
+- End-to-end data workflow (SQL → Python → Power BI)  
+- Data cleaning and transformation using Python  
+- Writing analytical SQL queries for business insights  
+- Building dashboards that communicate insights clearly  
+
+---
+
+## 🔗 Dataset Source
+Olist Brazilian E-commerce Dataset (Public dataset)
+
+---
+
+## 📌 Future Improvements
+- Cohort-based retention analysis  
+- Customer segmentation (RFM analysis)  
+- Predictive modeling for repeat customer behavior  
