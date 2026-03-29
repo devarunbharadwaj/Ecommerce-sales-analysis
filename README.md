@@ -8,6 +8,14 @@ The goal is to move beyond basic reporting and identify **business-critical insi
 - Revenue concentration
 - Delivery efficiency impact
 
+## ❗ Business Problem
+
+The company shows strong growth in revenue but extremely low customer retention.
+
+This project investigates:
+- Why customers are not returning
+- Whether revenue is sustainable
+- If delivery performance impacts customer behavior
 ---
 
 ## 🛠 Tools & Technologies
@@ -28,6 +36,13 @@ Ecommerce-sales-analysis/
 └── README.md
 
 ---
+
+## ⚙️ Data Processing Steps
+
+- Removed null values and invalid timestamps
+- Created delivery buckets from delivery time
+- Aggregated revenue at customer and monthly level
+- Joined customer and order datasets for analysis
 
 ## 📊 Key Insights
 
@@ -70,7 +85,14 @@ Ecommerce-sales-analysis/
 
 1. Load datasets from the `data/` folder  
 2. Run SQL queries from `sql/analysis.sql`  
-3. Open `powerbi/Ecommerce_projectdb.pbix` in Power BI  
+3. Open `powerbi/Ecommerce_projectdb.pbix` in Power BI
+
+## 💡 Recommendations
+
+- Introduce loyalty programs to improve retention
+- Target high-value customers with personalized offers
+- Improve delivery efficiency to enhance customer experience
+- Focus on retention instead of only acquisition
 
 ---
 
